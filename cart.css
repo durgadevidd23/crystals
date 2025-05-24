@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+    padding: 20px;
+}
+.close{
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.47);
+    background-color: rgba(255, 255, 255, 0.623);
+    border-radius: 50%;
+    margin-left: 1000px;
+    font-size: 18px;
+    animation: close 3s linear;
+}
+.close:hover{
+    background-color: #6b6968;
+    color: white;
+}
+
+/* Cart Container */
+.cart-container {
+    width: 500px;
+    margin: auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.logo{
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   margin-left: 180px;
+}
+
+h2 {
+    text-align: center;
+    color: #ff6600;
+}
+
+/* Cart item */
+.cart-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.cart-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.cart-details {
+    flex-grow: 1;
+}
+
+.cart-details h3 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.cart-details p {
+    font-size: 14px;
+    color: #666;
+}
+
+.qty{
+    width: 50px;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Remove Button */
+.remove-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.remove-btn:hover {
+    background: darkred;
+}
+
+/* Checkout  */
+.cart-footer {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cart-footer p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+span{
+    font-weight: bold;
+    margin: 5px;
+}
+
+.checkout-btn {
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.checkout-btn:hover {
+    background: #cc5200;
+}
